@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Apc</title>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link href="styles.scss" rel="stylesheet">
+    <script src="login.js"></script>
+  </head>
+  <body>
+
+    <div id="Header">
+      <div id="logo">
+        <img class="airbusl" src="assets/images/airbus.png" alt="Airbus">
+        <span class="title">APC-ACC JAGUAR</span>
+      </div>
+    </div>
+
+    <div class="login">
+      <div class="log">
+        <legend>Welcome back !</legend>
+        <p>Choose your account name for connection to the APC-ACC application</p>
+      </div>
+
+      <div class="principale">
+        <legend class="main"><i>Main account</i></legend>
+        <div>
+          <input type="radio" name="id"><label>raphael.dupuy</label>
+        </div>
+        <div>
+          <input type="radio" name="id"><label>raphael.DUPAIR</label>
+        </div>
+        <legend class="main"><i>Back-up </i> </legend>
+        <div>
+          <input type="radio" name="id"><label>christophe.coello</label>
+        </div>
+        <div>
+          <input type="radio" name="id"><label>sylvain.bedouret</label>
+        </div>
+      </div>
+
+      <div>
+        <label class="remember"><input type="checkbox" name="remember">Remember me ?</label>
+        <a href="acc/acc.component.html"><button type="button"  class="envoi">Login</button></a>
+      </div>
+    </div>
+  </body>
+</html>
+
+
